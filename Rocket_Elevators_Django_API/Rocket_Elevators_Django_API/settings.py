@@ -75,11 +75,14 @@ WSGI_APPLICATION = 'Rocket_Elevators_Django_API.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'JulienCharbonneau',
+        'USER': 'academy',
+        'PASSWORD': 'HeAz+=Sc-8CJ3bXv',
+        'HOST':'ls-f2d6bd226744c0fcfc2009d804298a21ce412d05.crydppxblqbm.ca-central-1.rds.amazonaws.com',
+        'PORT':'3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
