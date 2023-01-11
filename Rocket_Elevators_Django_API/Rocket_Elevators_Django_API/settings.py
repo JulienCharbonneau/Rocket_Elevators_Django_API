@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'ai_api',
 ]
 
 MIDDLEWARE = [
@@ -76,10 +78,10 @@ WSGI_APPLICATION = 'Rocket_Elevators_Django_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'JulienCharbonneau',
-        'USER': 'academy',
-        'PASSWORD': 'HeAz+=Sc-8CJ3bXv',
-        'HOST':'ls-f2d6bd226744c0fcfc2009d804298a21ce412d05.crydppxblqbm.ca-central-1.rds.amazonaws.com',
+        'NAME': 'rocketelevatorsinformationsystem_development',
+        'USER': 'julien',
+        'PASSWORD': 'geriboire',
+        'HOST':'localhost',
         'PORT':'3306',
     }
 }
